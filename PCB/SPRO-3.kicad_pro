@@ -632,7 +632,7 @@
         "uuid": "127cc66c-bf32-49a3-97b5-ae2b416e03db"
       }
     ],
-    "used_designators": "",
+    "used_designators": "J_Switch1,J3-4,#PWR45,#PWR63-68,SW1-2",
     "variants": []
   },
   "sheets": [
