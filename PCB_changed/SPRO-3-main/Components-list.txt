@@ -1,0 +1,7 @@
+ESP32 for antennas: https://dk.rs-online.com/web/p/mikrokontroller-udvikling/2863990
+Buck-converter: https://dk.rs-online.com/web/p/switching-regulatorer/9083880
+3.3V Regulator: https://dk.rs-online.com/web/p/switching-regulatorer/6664360P
+Push-Pull Micro-SD socket: https://dk.rs-online.com/web/p/stik-til-hukommelseskort/8967560
+Ultrasonic sensors: https://dk.rs-online.com/web/p/bbc-micro-bit-add-ons/2153181
+Motors: https://www.mouser.dk/en/ProductDetail/DFRobot/FIT0186?qs=lqAf%2FiVYw9hapSvMo8%252BlgA%3D%3D&srsltid=AU7gw4VIslNihsx2Iq6ye-CssLptLfNQLBbk2303-QVPFNP7oPGPzPp6
+Buck-converter / Voltage regulator / Boost-converter (For the motor power lines)
