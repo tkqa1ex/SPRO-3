@@ -5263,12 +5263,6 @@
 		(uuid "1da1aaa2-49e4-4166-b114-19a592d5b392")
 	)
 	(junction
-		(at 209.55 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ebcf10f-392c-4a4d-8a7a-26309e2702cf")
-	)
-	(junction
 		(at 251.46 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5279,6 +5273,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3002ca9a-af73-4341-92e3-89bfe02999ef")
+	)
+	(junction
+		(at 208.28 104.775)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40470f9a-5cde-483c-a360-088f1a804564")
 	)
 	(junction
 		(at 31.75 75.565)
@@ -5353,12 +5353,6 @@
 		(uuid "91ee8576-b809-4465-a8cd-cd1ed64bbd64")
 	)
 	(junction
-		(at 227.33 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "92a0adb8-8240-4334-9d82-caa2f105a59f")
-	)
-	(junction
 		(at 200.66 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5369,6 +5363,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9761ca79-2ebf-402d-92ce-026a85b96c05")
+	)
+	(junction
+		(at 227.33 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9f96fcc8-99bd-478a-a114-2db54d5c1a0a")
 	)
 	(junction
 		(at 200.66 53.34)
@@ -5389,30 +5389,22 @@
 		(uuid "e224c929-1426-4ffc-8e0c-f609c90e83ff")
 	)
 	(junction
+		(at 208.28 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e4c1f579-7f09-43a6-a2d9-c27234530feb")
+	)
+	(junction
 		(at 227.33 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed686691-0cd1-447f-97c1-fa3317b5660b")
 	)
 	(junction
-		(at 208.28 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f0728794-6fab-4da5-b577-37b0a554f351")
-	)
-	(junction
 		(at 31.75 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd4e34f8-8665-457b-86bf-fa82c00e63e6")
-	)
-	(no_connect
-		(at 229.87 120.65)
-		(uuid "38841471-00af-4d59-a97a-f9f213e3a13f")
-	)
-	(no_connect
-		(at 229.87 102.87)
-		(uuid "93efb8f9-bdd0-4732-9a61-5c92b59967d2")
 	)
 	(no_connect
 		(at 34.29 34.29)
@@ -5440,6 +5432,26 @@
 	)
 	(wire
 		(pts
+			(xy 223.52 120.65) (xy 229.87 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047520fa-2af3-4925-ab0a-33536de122c4")
+	)
+	(wire
+		(pts
+			(xy 216.535 95.25) (xy 216.535 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0699a93c-23c8-4ae6-ac24-59c359d0110a")
+	)
+	(wire
+		(pts
 			(xy 71.12 60.96) (xy 73.66 60.96)
 		)
 		(stroke
@@ -5447,6 +5459,16 @@
 			(type default)
 		)
 		(uuid "0ace1294-f9b8-4d58-b57b-f85a03e169c4")
+	)
+	(wire
+		(pts
+			(xy 208.28 93.345) (xy 208.28 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c7256f3-0366-4230-882a-6d01880e40fb")
 	)
 	(wire
 		(pts
@@ -5480,7 +5502,7 @@
 	)
 	(wire
 		(pts
-			(xy 226.06 93.98) (xy 227.33 93.98)
+			(xy 226.695 89.535) (xy 227.33 89.535)
 		)
 		(stroke
 			(width 0)
@@ -5560,7 +5582,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 99.06) (xy 208.28 99.06)
+			(xy 206.375 104.775) (xy 208.28 104.775)
 		)
 		(stroke
 			(width 0)
@@ -5690,16 +5712,6 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 99.06) (xy 209.55 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b00bc6b-fdd6-4db8-a7ef-fda611d12c41")
-	)
-	(wire
-		(pts
 			(xy 196.85 109.22) (xy 200.66 109.22)
 		)
 		(stroke
@@ -5750,7 +5762,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 116.84) (xy 200.66 116.84)
+			(xy 200.66 116.84) (xy 229.87 116.84)
 		)
 		(stroke
 			(width 0)
@@ -5870,6 +5882,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 104.14) (xy 208.28 104.775)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9112babb-846d-42b1-a714-d462f3e9d6e5")
+	)
+	(wire
+		(pts
 			(xy 229.87 115.57) (xy 229.87 116.84)
 		)
 		(stroke
@@ -5980,6 +6002,16 @@
 	)
 	(wire
 		(pts
+			(xy 208.28 95.25) (xy 208.28 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b1ea75-d3f8-4339-b0c6-f5ade2c73e5e")
+	)
+	(wire
+		(pts
 			(xy 171.45 33.02) (xy 172.72 33.02)
 		)
 		(stroke
@@ -6027,6 +6059,16 @@
 			(type default)
 		)
 		(uuid "a9586f11-2fae-4e6e-84f9-6a7feb050446")
+	)
+	(wire
+		(pts
+			(xy 224.155 102.87) (xy 229.87 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac00f13c-8782-43bd-9bc4-f26b16599854")
 	)
 	(wire
 		(pts
@@ -6090,6 +6132,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 120.65) (xy 216.535 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7d8a31d-2aff-4d67-83e0-0f4494230e5b")
+	)
+	(wire
+		(pts
 			(xy 276.86 107.95) (xy 279.4 107.95)
 		)
 		(stroke
@@ -6150,6 +6202,16 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 89.535) (xy 227.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2e11274-ae3a-4ce2-ae8d-7880349144d5")
+	)
+	(wire
+		(pts
 			(xy 276.86 105.41) (xy 276.86 107.95)
 		)
 		(stroke
@@ -6157,6 +6219,16 @@
 			(type default)
 		)
 		(uuid "c35dfec7-0692-4e00-bb65-c0e33c83c959")
+	)
+	(wire
+		(pts
+			(xy 208.28 95.25) (xy 216.535 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c837938d-c419-4dfb-b810-085874503be5")
 	)
 	(wire
 		(pts
@@ -6280,7 +6352,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 107.95) (xy 208.28 99.06)
+			(xy 208.28 107.95) (xy 208.28 104.775)
 		)
 		(stroke
 			(width 0)
@@ -6297,16 +6369,6 @@
 			(type default)
 		)
 		(uuid "ecf868b9-7193-4417-9525-ebaee4f2de2f")
-	)
-	(wire
-		(pts
-			(xy 229.87 116.84) (xy 209.55 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa436288-420f-4e9a-9109-04819244d311")
 	)
 	(wire
 		(pts
@@ -6882,7 +6944,7 @@
 	)
 	(global_label "GPIO 10 {slash} CS"
 		(shape input)
-		(at 226.06 93.98 180)
+		(at 226.695 89.535 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6892,7 +6954,7 @@
 		)
 		(uuid "2ddaa3f4-909c-44fb-9db3-68374c0e9fcd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 209.4677 93.98 0)
+			(at 210.1027 89.535 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7170,7 +7232,7 @@
 	)
 	(global_label "GPIO 11 {slash} MOSI"
 		(shape input)
-		(at 207.01 99.06 180)
+		(at 206.375 104.775 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7180,7 +7242,7 @@
 		)
 		(uuid "552381a1-f326-4ea6-a7f8-3f0ab8889d15")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.301 99.06 0)
+			(at 187.666 104.775 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11307,6 +11369,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 219.71 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3bc8de3b-9b66-4d20-81b3-9fbca754595b")
+		(property "Reference" "R25"
+			(at 219.71 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 219.71 125.73 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 219.71 122.428 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 219.71 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "941f18d5-5fe4-4cdb-a2f3-2dc99757c91a")
+		)
+		(pin "1"
+			(uuid "de0f123a-b462-4222-afd3-2b98846c6d78")
+		)
+		(instances
+			(project "SPRO-3"
+				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
+					(reference "R25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 40.64 27.94 90)
 		(unit 1)
@@ -13072,85 +13213,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 213.36 99.06 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "74ab5566-ca55-4d7c-bf88-8d4256a65cfa")
-		(property "Reference" "R2"
-			(at 213.36 101.6 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10kΩ"
-			(at 213.36 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 213.36 97.282 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 213.36 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 213.36 99.06 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "06e4e8b4-b1c5-47db-89b4-07d33d2bfb19")
-		)
-		(pin "1"
-			(uuid "1ec31a04-b481-4677-96de-06267ddde2f2")
-		)
-		(instances
-			(project "SPRO-3"
-				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 176.53 33.02 270)
 		(unit 1)
 		(body_style 1)
@@ -13231,7 +13293,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 217.17 99.06 270)
+		(at 208.28 93.345 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13241,7 +13303,7 @@
 		(dnp no)
 		(uuid "7957da3b-18f9-4ecf-9096-c578ed2f50a6")
 		(property "Reference" "#PWR025"
-			(at 213.36 99.06 0)
+			(at 212.09 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13252,7 +13314,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 219.71 99.06 90)
+			(at 205.74 93.345 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13263,7 +13325,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 217.17 99.06 0)
+			(at 208.28 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13274,7 +13336,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 217.17 99.06 0)
+			(at 208.28 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13285,7 +13347,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 217.17 99.06 0)
+			(at 208.28 93.345 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13625,6 +13687,85 @@
 			(project "SPRO-3"
 				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 208.28 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "80207529-46a7-4c78-bd63-9066819cd446")
+		(property "Reference" "R2"
+			(at 210.82 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 213.36 100.33 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 206.502 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 208.28 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 208.28 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "102ed48e-bd4c-4873-a15a-d7ac8560ffde")
+		)
+		(pin "1"
+			(uuid "0aaa86bd-fa67-402a-b68a-37898ab91988")
+		)
+		(instances
+			(project "SPRO-3"
+				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -14162,6 +14303,85 @@
 			(project "SPRO-3"
 				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
 					(reference "#PWR062")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 216.535 120.65 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "93c1c191-5121-4210-b082-90806a2dc2fb")
+		(property "Reference" "#PWR043"
+			(at 220.345 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 213.36 120.6499 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 216.535 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 216.535 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 216.535 120.65 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e53e08d7-6443-4647-94ed-35f1a431e539")
+		)
+		(instances
+			(project "SPRO-3"
+				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -15534,7 +15754,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 209.55 116.84 180)
+		(at 200.66 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15545,7 +15765,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4426359-a5e4-4e33-b8cc-2bfec0fa8078")
 		(property "Reference" "#FLG02"
-			(at 209.55 118.745 0)
+			(at 200.66 118.745 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15556,7 +15776,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 209.55 121.92 0)
+			(at 200.66 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15566,7 +15786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 209.55 116.84 0)
+			(at 200.66 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15577,7 +15797,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 209.55 116.84 0)
+			(at 200.66 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15588,7 +15808,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 209.55 116.84 0)
+			(at 200.66 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16118,7 +16338,7 @@
 				)
 			)
 		)
-		(property "Value" "2kΩ"
+		(property "Value" "1.8kΩ"
 			(at 195.58 77.47 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17636,7 +17856,7 @@
 				)
 			)
 		)
-		(property "Value" "2kΩ"
+		(property "Value" "1.8kΩ"
 			(at 195.58 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17847,6 +18067,86 @@
 			(project "SPRO-3"
 				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
 					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 220.345 102.87 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e4d2338a-d3c2-4bfd-a142-12d496a30fe0")
+		(property "Reference" "R26"
+			(at 220.345 96.52 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47kΩ"
+			(at 220.345 99.06 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 220.345 104.648 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 220.345 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 220.345 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ecf83146-fff7-45f3-89e1-ad430ccfee57")
+		)
+		(pin "1"
+			(uuid "5810ac36-bd34-4017-ba40-6cd5c638f01b")
+		)
+		(instances
+			(project "SPRO-3"
+				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -18189,7 +18489,7 @@
 				)
 			)
 		)
-		(property "Value" "2kΩ"
+		(property "Value" "1.8kΩ"
 			(at 195.58 58.42 90)
 			(show_name no)
 			(do_not_autoplace no)
