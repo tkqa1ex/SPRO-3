@@ -5862,16 +5862,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.815 100.33) (xy 172.085 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33cca54c-d936-410f-9300-59934aec46aa")
-	)
-	(wire
-		(pts
 			(xy 206.375 104.775) (xy 208.28 104.775)
 		)
 		(stroke
@@ -5982,23 +5972,13 @@
 	)
 	(wire
 		(pts
-			(xy 121.285 100.33) (xy 122.555 100.33)
+			(xy 121.285 100.33) (xy 139.065 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "53d27e04-70b6-4b35-8c50-b3e3609e9d91")
-	)
-	(wire
-		(pts
-			(xy 129.54 33.02) (xy 138.43 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59c536d1-b1d4-4ff6-8f5f-2e06aa4b5770")
 	)
 	(wire
 		(pts
@@ -6272,7 +6252,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 33.02) (xy 121.92 33.02)
+			(xy 120.65 33.02) (xy 138.43 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6289,16 +6269,6 @@
 			(type default)
 		)
 		(uuid "9b177098-ba1d-4c3f-8775-116d0809618c")
-	)
-	(wire
-		(pts
-			(xy 170.18 33.02) (xy 171.45 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b6e3be4-ee94-42a7-9e52-b177b0acfd5f")
 	)
 	(wire
 		(pts
@@ -6369,16 +6339,6 @@
 			(type default)
 		)
 		(uuid "a2b5e1b2-b825-4037-bcc2-25eb40101321")
-	)
-	(wire
-		(pts
-			(xy 130.175 100.33) (xy 139.065 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a36bafc5-4d05-43a0-9bc6-0e67b6e848f4")
 	)
 	(wire
 		(pts
@@ -6602,7 +6562,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.195 100.33) (xy 154.305 100.33)
+			(xy 154.305 100.33) (xy 172.085 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6792,7 +6752,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 33.02) (xy 153.67 33.02)
+			(xy 153.67 33.02) (xy 171.45 33.02)
 		)
 		(stroke
 			(width 0)
@@ -10036,86 +9996,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 126.365 100.33 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "182e4276-9aa2-40dd-8a69-ee1875562874")
-		(property "Reference" "R23"
-			(at 126.365 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.8kΩ"
-			(at 126.365 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 126.365 102.108 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 126.365 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 126.365 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a581a76b-fcb9-4a8e-b161-fc59daaa73b5")
-		)
-		(pin "2"
-			(uuid "3524963d-73da-4dff-8268-963b5ae7422a")
-		)
-		(instances
-			(project "SPRO-3"
-				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
-					(reference "R23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 24.765 128.905 270)
 		(unit 1)
@@ -10775,7 +10655,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.9kΩ"
 			(at 116.205 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12628,7 +12508,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.9kΩ"
 			(at 177.165 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13442,7 +13322,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.9kΩ"
 			(at 115.57 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14231,7 +14111,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3kΩ"
+		(property "Value" "3.9kΩ"
 			(at 176.53 29.21 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16574,86 +16454,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 167.005 100.33 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a66a9676-0902-4f2e-a3a5-e273f4cf2376")
-		(property "Reference" "R21"
-			(at 167.005 93.98 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.8kΩ"
-			(at 167.005 96.52 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 167.005 98.552 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.005 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 167.005 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "934f6b67-fab3-4f50-b4a2-cb2021e19adf")
-		)
-		(pin "2"
-			(uuid "a596c84d-2575-43d8-90c9-08e17ce65ce4")
-		)
-		(instances
-			(project "SPRO-3"
-				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
-					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 158.75 63.5 90)
 		(unit 1)
 		(body_style 1)
@@ -18263,86 +18063,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 125.73 33.02 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c99f7b66-bd4b-4d5c-8514-a5f48bd13f36")
-		(property "Reference" "R17"
-			(at 125.73 26.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.8kΩ"
-			(at 125.73 29.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 125.73 34.798 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 125.73 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 125.73 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "8d2bc46a-42a6-4f9b-85d9-9701d22f120b")
-		)
-		(pin "2"
-			(uuid "7e5e97e0-2109-451b-b6e8-313b36dbf7df")
-		)
-		(instances
-			(project "SPRO-3"
-				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 232.41 133.35 90)
 		(unit 1)
 		(body_style 1)
@@ -19861,86 +19581,6 @@
 			(project "SPRO-3"
 				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
 					(reference "R26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 166.37 33.02 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e583af64-cbf1-4af0-bea2-d570ff2d4367")
-		(property "Reference" "R19"
-			(at 166.37 26.67 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1.8kΩ"
-			(at 166.37 29.21 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 166.37 31.242 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 166.37 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "97fa4670-ef1d-4d91-94fa-4843f055ab1b")
-		)
-		(pin "2"
-			(uuid "78272ae7-2a79-4d4e-be46-cdd33af42c62")
-		)
-		(instances
-			(project "SPRO-3"
-				(path "/127cc66c-bf32-49a3-97b5-ae2b416e03db"
-					(reference "R19")
 					(unit 1)
 				)
 			)
